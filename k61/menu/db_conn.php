@@ -1,9 +1,9 @@
 <?php
 #PODAJEMY DANE DO WYKONANIA POŁĄCZENIA Z BAZĄ DANYCH
 $dbservername = "phpmyadmin54.lh.pl";
-$dbusername = "serwer77840_wsb";
-$dbpassword = "wsb123";
-$dbname = "serwer77840_wsb";
+$dbusername = "serwer77843_wsbk61";
+$dbpassword = "Serwer77840_wsb";
+$dbname = "serwer77843_wsbk61";
 
 #NAWIAZUJEMY POŁĄCZENIA
 $conn = mysqli_connect($dbservername, $dbusername, $dbpassword, $dbname);
