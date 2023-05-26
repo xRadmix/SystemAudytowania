@@ -1,4 +1,4 @@
-﻿<?
+<?
 #SPRAWDZAMY CZY UŻYTKOWNIK JEST ZALOGOWANY
 session_start();
 if (!isset($_SESSION['logon'])) {
@@ -55,7 +55,6 @@ include "../db_conn.php";
             <div class=bar></div>
         </div>
 
-        <div class=sidegap></div>
         <a href="javascript:delay('../logout.php')">
             <div class=buttons id=logout>
                 <div class=info>Wyloguj</div>
@@ -65,29 +64,35 @@ include "../db_conn.php";
     </div>
     <!-----------------------------STRONA--------------------------------------------->
     <div id=strona>
-        <div id=header>Panel administratora</div>
+        <div id=header style="background-color: #0B6FA4">Panel administratora</div>
         <a href="">
-            <div class=choice id=a>
+            <div class=choice id=a style="background-color: #0B6FA4">
                 <i class="fa fa-address-book fa-5x"></i>
                 <p>Dodaj użytkowników</p>
             </div>
         </a>
         <a href="">
-            <div class=choice id=b>
+            <div class=choice id=b style="background-color: #0B6FA4">
                 <i class="fa fa-trash-o fa-5x"></i>
                 <p>Usuń użytkowników</p>
             </div>
         </a>
         <a href="">
-            <div class=choice id=c>
+            <div class=choice id=c style="background-color: #0B6FA4">
                 <i class="fa fa-refresh fa-5x"></i>
                 <p>Resetuj hasła</p>
             </div>
         </a>
 		<a href="">
-            <div class=choice id=c>
+            <div class=choice id=c style="background-color: #0B6FA4">
                 <i class="fa fa-tasks fa-5x"></i>
                 <p>Przejrzyj logi</p>
+            </div>
+        </a>
+        <a href="../menu.php">
+            <div class=choice id=c style="background-color: green">
+                <i class="fa fa-user fa-5x"></i>
+                <p>Panel użytkownika</p>
             </div>
         </a>
 	</div>
