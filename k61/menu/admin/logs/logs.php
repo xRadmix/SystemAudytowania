@@ -16,7 +16,7 @@ include "../../db_conn.php";
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../style.css">
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="../scripts.js"></script>
+    <script src="../../scripts.js"></script>
     <script>
         $(document).ready(function() {
             //Hide second child i.e second column
