@@ -36,6 +36,7 @@
             if($users>0)
             {
                 $_SESSION['logon']=true;
+                $_SESSION['login']=$login;
                 $row = $result->fetch_assoc();
                 $_SESSION['user'] = $row['u_name'];
                 unset($_SESSION['blad']);
