@@ -54,7 +54,12 @@ include "../db_conn.php";
             <div class=bar></div>
             <div class=bar></div>
         </div>
-
+        <a href=>
+            <div class=buttons>
+                <div class=info>Generuj raport</div>
+                <div id=side_button><i class="fa fa-search fa-2x"></i></div>
+            </div>
+        </a>
         <div class=sidegap></div>
         <a href="javascript:delay('../logout.php')">
             <div class=buttons id=logout>
@@ -74,8 +79,7 @@ include "../db_conn.php";
                         <th scope="col">Raport</th>
                     </tr>
                 </thead>
-                <tbody>
-                    
+                <tbody>               
                         <tr>
                             <td>Link</td>
                         </tr>
