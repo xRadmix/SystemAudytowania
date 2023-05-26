@@ -76,13 +76,13 @@
                 <p>Peryferia</p>
             </div>
         </a>
-		<a href="">
+		<a href="repairs/show.php">
             <div class=choice id=d>
                 <i class="fa fa-history fa-5x"></i>
                 <p>Historia napraw</p>
             </div>
         </a>
-		<a href="">
+		<a href="reports/show.php">
             <div class=choice id=d>
                 <i class="fa fa-bar-chart fa-5x"></i>
                 <p>Generowanie raportów</p>
