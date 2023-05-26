@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 session_start();
 if (!isset($_SESSION['logon'])) {
     header('location: ../../index.php');
@@ -56,7 +56,7 @@ include "../db_conn.php";
         </div>
         <a href=>
             <div class=buttons>
-                <div class=info>Sprwadź historię</div>
+                <div class=info>Szukaj</div>
                 <div id=side_button><i class="fa fa-search fa-2x"></i></div>
             </div>
         </a>
