@@ -39,7 +39,7 @@ include "../../db_conn.php";
     <!-------------------------------TOP---------------------------------------------->
     <div id=top>
         Audyt sprzętu
-        <a href="../../menu.php">
+        <a href="../show.php">
             <div id=home>
                 <i id=y class="fa fa-home fa-2x"></i>
             </div>
