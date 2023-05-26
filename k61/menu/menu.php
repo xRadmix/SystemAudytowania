@@ -89,7 +89,7 @@
             </div>
         </a>
 		<a href="admin/show.php">
-            <div class=choice id=d>
+            <div class=choice id=d style="background-color: #0B6FA4">
                 <i class="fa fa-lock fa-5x"></i>
                 <p>Panel administratora</p>
             </div>
