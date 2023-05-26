@@ -1,4 +1,4 @@
-<?
+﻿<?
 #SPRAWDZAMY CZY UŻYTKOWNIK JEST ZALOGOWANY
 session_start();
 if (!isset($_SESSION['logon'])) {
@@ -71,7 +71,7 @@ include "../db_conn.php";
                 <p>Dodaj użytkowników</p>
             </div>
         </a>
-        <a href="">
+        <a href="/menu/admin/delete/delete.php">
             <div class=choice id=b style="background-color: #0B6FA4">
                 <i class="fa fa-trash-o fa-5x"></i>
                 <p>Usuń użytkowników</p>
@@ -83,7 +83,7 @@ include "../db_conn.php";
                 <p>Resetuj hasła</p>
             </div>
         </a>
-		<a href="">
+        <a href="/menu/admin/logs/logs.php">
             <div class=choice id=c style="background-color: #0B6FA4">
                 <i class="fa fa-tasks fa-5x"></i>
                 <p>Przejrzyj logi</p>
@@ -95,10 +95,10 @@ include "../db_conn.php";
                 <p>Panel użytkownika</p>
             </div>
         </a>
-	</div>
-        <div id=footer>
-            <!--------------------STOPKA--------------------------->
-        </div>
+    </div>
+    <div id=footer>
+        <!--------------------STOPKA--------------------------->
+    </div>
 
     </div>
     <!--end of strona-->
