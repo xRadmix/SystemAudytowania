@@ -79,9 +79,6 @@ include "../db_conn.php";
                         <tr>
                             <td>ID sprzętu</td>
                         </tr>
-                    <?php
-                    }
-                    ?>
                 </tbody>
                 <form method="POST">
                     <tfoot>
