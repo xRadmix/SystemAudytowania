@@ -35,12 +35,12 @@ if (isset($_POST['submit'])) {
     <script>
         $(document).ready(function() {
             //Hide second child i.e second column
-            $(".table td:nth-child(8)").hide();
-            $(".table td:nth-child(9)").hide();
+            $(".table td:nth-child(4)").hide();
+            $(".table td:nth-child(5)").hide();
             $('.table tfoot').hide();
             $("#Edit_button").click(function() {
-                $(".table td:nth-child(8)").toggle(100);
-                $(".table td:nth-child(9)").toggle(100);
+                $(".table td:nth-child(4)").toggle(100);
+                $(".table td:nth-child(5)").toggle(100);
             });
             $("#Add_button").click(function() {
                 $('.table tfoot').toggle(200);
@@ -53,7 +53,7 @@ if (isset($_POST['submit'])) {
 <body>
     <!-------------------------------TOP---------------------------------------------->
     <div id=top>
-        Audyt sprzętu
+        Użytkownicy systemu
         <a href="../show.php">
             <div id=home>
                 <i id=y class="fa fa-home fa-2x"></i>
@@ -105,10 +105,6 @@ if (isset($_POST['submit'])) {
                         <th scope="col">ID</th>
                         <th scope="col">Imię</th>
                         <th scope="col">Nazwisko</th>
-                        <th scope="col">Komputer</th>
-                        <th scope="col">Wyświetlacz</th>
-                        <th scope="col">Mysz</th>
-                        <th scope="col">Klawiatura</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -129,10 +125,6 @@ if (isset($_POST['submit'])) {
                             <td><?php echo $row['id'] ?></td>
                             <td><?php echo $row['imie'] ?></td>
                             <td><?php echo $row['nazwisko'] ?></td>
-                            <td><?php echo $row['nr_seryjny_k'] ?></td>
-                            <td><?php echo $row['nr_seryjny_w'] ?></td>
-                            <td><?php echo $row['mysz'] ?></td>
-                            <td><?php echo $row['klawiatura'] ?></td>
                             <td>
                                 <a href="edit.php?id=<?php echo $row['id'] ?>">
                                     <i class="fa fa-pencil-square"></i>
@@ -151,14 +143,14 @@ if (isset($_POST['submit'])) {
                 <form method="POST">
                     <tfoot>
                         <tr>
-                            <td></td>
+                            <td><button type="submit" name="submit">Dodaj</button></td>
                             <td>
                                 <input type="text" name="imie" placeholder="Imię" value="<?php echo $row['imie'] ?>">
                             </td>
                             <td>
                                 <input type="text" name="nazwisko" placeholder="Nazwisko" value="<?php echo $row['nazwisko'] ?>">
                             </td>
-                            <td><button type="submit" name="submit">Dodaj</button></td>
+                            
                         </tr>
                     </tfoot>
                 </form>
