@@ -69,7 +69,7 @@ if (isset($_POST['submit'])) {
             <div class=bar></div>
             <div class=bar></div>
         </div>
-        <a href="find.php">
+        <a href="">
             <div class=buttons>
                 <div class=info>Znajdź</div>
                 <div id=side_button><i class="fa fa-search fa-2x"></i></div>
