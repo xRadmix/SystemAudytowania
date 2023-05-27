@@ -70,7 +70,7 @@ include "../db_conn.php";
     </div>
     <!-----------------------------STRONA--------------------------------------------->
     <div id=strona>
-        <div id=header>Wyświetlacze</div>
+        <div id=header>Historia napraw</div>
         <div id=main>
             <!---------------------TREŚĆ---------------------------->
             <table class="table">
